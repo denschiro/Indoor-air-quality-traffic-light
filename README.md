@@ -15,4 +15,11 @@ In the code you have to declare if you want to use the Wifi.
 
 If the wifi is active, the SSID, wifi password and the MQTT parameters must be entered. (See comments config)
 
+To get started:
+  Install micropython on your ESP32
+  Connect CCS811, BME280 to 3,3V/GND/SCL/SDA
+  Connect Neopixel to 5V/GND/Pin
+  Connect 7Digit to 3,3V/GND/Clk/Dio
+
+
 
