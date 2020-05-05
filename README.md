@@ -1,5 +1,5 @@
 # Indoor-air-quality-traffic-light
-Indoor air quality traffic light with display and Mqtt support ( ESP32 , BME280 , CCS811 , Neopixel, Mqtt)  
+Indoor air quality traffic light with display and Mqtt support ( ESP32 , BME280 , CCS811 ,TM1637 , Neopixel, Mqtt)  
 
 ESP32 measures the quality of indoor air with a CCS811 and BME280 . The measurements are visualized with a neopixel strip and a 7 segment display.
 
@@ -23,7 +23,7 @@ To get started:
   
   Connect Neopixel to 5V/GND/Pin
   
-  Connect 7Digit to 3,3V/GND/Clk/Dio
+  Connect TM1637 7Digit to 3,3V/GND/CLK/DIO
   
 
 
