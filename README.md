@@ -39,12 +39,14 @@ wifi_enable = True  #True or False
 wifi_ssid = "yourSSID"
 wifi_password = "yourPassword"
 
+
 #config MQTT
 mqtt_client = "yourClientName"
 mqtt_broker = "yourBrokerIP"
 mqtt_user = "yourMqttUser"
 mqtt_password = "yourMqttPassword"
 mqtt_port = 1883
+
 
 #def MQTT  Topic
 topic_co2 = b"home/livingroom/co2"
