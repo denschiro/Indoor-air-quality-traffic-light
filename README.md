@@ -29,6 +29,7 @@ a good tutorial about it : https://docs.micropython.org/en/latest/esp32/tutorial
 I prefer Thonny https://thonny.org
 
 In the main.py, under: ####Config###
+
 The parameters for Wifi and Mqtt can be adjusted.
 
 ####config start#######
@@ -53,10 +54,16 @@ topic_humidity =  b"home/livingroom/humidity"
 topic_press = b"home/livingroom/pressure"
 
 ####config end#######
+
 Import the main.py and the libraries tm1637.py , CCS811.py ,bme280.py into the board.
+
 Turn off the board and connect the parts to the board.
+
 Connect CCS811, BME280 to 3.3V / GND / SCL Pin 13 /SDA Pin 5
+
 Connect neopixel to 5V / GND / Pin 19
+
 Connect TM1637 7Digit to 3,3V / GND / CLK Pin 17 /DIO Pin 18
+
 
 Turn the Board on and enjoy :-)
