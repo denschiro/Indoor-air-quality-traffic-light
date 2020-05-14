@@ -36,6 +36,7 @@ The parameters for Wifi and Mqtt can be adjusted.
 
 #config Wifi
 wifi_enable = True  #True or False 
+
 wifi_ssid = "yourSSID"
 wifi_password = "yourPassword"
 
