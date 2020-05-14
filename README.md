@@ -1,24 +1,36 @@
 # Indoor-air-quality-traffic-light
-Indoor-air-quality-traffic-light
-device.jpg
-caption (optional)
+
+
 Indoor air quality traffic light with display and Mqtt support ( ESP32 , BME280 , CCS811 ,TM1637 , Neopixel, Mqtt)
-Device_ampel_open.jpg
-caption (optional)
+
+
 ESP32 measures the quality of indoor air with a CCS811 and BME280 . The measurements are visualized with a neopixel strip and a 7 segment display.
+
 The data can also be sent via Wlan and Mqtt
+
 Attention the measurements are not calibrated and are more than tendency than absolute values!
+
 Nevertheless it can be determined when it is useful to ventilate. Especially with regard to Covid and other cold viruses.
+
 As housing a Led Illuminated marking field was used. This is available in many variations among others with letters.
+
 In the code you have to declare if you want to use the Wifi.
+
 If the wifi is active, the SSID, wifi password and the MQTT parameters must be entered. (See comments config)
-To get started:
+
+#To get started:
+
 If your ESP dosent have Micropython
+
 Install Micropython on the ESP32
+
 a good tutorial about it : https://docs.micropython.org/en/latest/esp32/tutorial/intro.html
+
 I prefer Thonny https://thonny.org
+
 In the main.py, under: ####Config###
 The parameters for Wifi and Mqtt can be adjusted.
+
 ####config start#######
 
 #config Wifi
