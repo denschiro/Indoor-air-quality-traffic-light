@@ -12,7 +12,7 @@ import bme280
 
 
 #config Wifi
-wifi_enable = True  #True or False for using Wifi
+wifi_enable = False  #True or False for using Wifi
 wifi_ssid = "yourSSID"
 wifi_password = "yourWifiPassword"
 
