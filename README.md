@@ -1,4 +1,4 @@
-# Indoor-air-quality-traffic-light
+# Indoor-air-quality-traffic-light with Micropython
 
 
 Indoor air quality traffic light with display and Mqtt support ( ESP32 , BME280 , CCS811 ,TM1637 , Neopixel, Mqtt)
